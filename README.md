@@ -2,7 +2,7 @@
 
 This project investigates how winning a Grammy affects public sentiment, user ratings, and the number of reviews for music albums on RateYourMusic (RYM). By combining web scraping, sentiment analysis using a transformer model, and a Difference-in-Differences (DiD) causal inference framework, it aims to disentangle the media impact of high-profile music awards.
 
-## 📁 Files (Main Notebooks Only)
+## 📁 Files
 
 - `clean_rym_scraper.ipynb` – Web scraper built using Selenium to extract album reviews, ratings, and metadata from RYM  
 - `url_generator.ipynb` – Generates review URLs using regex and Grammy nomination metadata  
@@ -10,7 +10,9 @@ This project investigates how winning a Grammy affects public sentiment, user ra
 - `merge_data.ipynb` – Merges Grammy data and RYM reviews into a panel format for causal analysis  
 - `SENTIMENT_ANALYSIS.ipynb` – Uses `siebert/sentiment-roberta-large-english` to classify reviews as POSITIVE or NEGATIVE  
 - `wide_to_long.ipynb` – Converts data into long format for panel regression analysis  
-- `DoFile_final.do` – Final Difference-in-Differences and weighted regression analysis in Stata  
+- `DoFile_final.do` – Final Difference-in-Differences and weighted regression analysis in Stata
+
+Datasets can be requested upon request
 
 ## 📊 Summary
 
