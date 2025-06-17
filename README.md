@@ -11,6 +11,7 @@ This project investigates how winning a Grammy affects public sentiment, user ra
 - `SENTIMENT_ANALYSIS.ipynb` – Uses `siebert/sentiment-roberta-large-english` to classify reviews as POSITIVE or NEGATIVE  
 - `wide_to_long.ipynb` – Converts data into long format for panel regression analysis  
 - `DoFile_final.do` – Final Difference-in-Differences and weighted regression analysis in Stata
+- `DoFile_final.do` - In-class presentation
 
 Datasets can be requested upon request
 
